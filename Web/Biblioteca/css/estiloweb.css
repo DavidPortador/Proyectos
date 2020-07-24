@@ -1,0 +1,115 @@
+body{
+	background:-webkit-radial-gradient(top,#FFFFFF);
+	background:-moz-linear-gradient(top,#FFFFFF);
+	background:linear-gradient(top,#FFFFFF);
+	background: url(../imagenes/bg.png); 
+	background-repeat: no-repeat; 
+	background-size: 100% 100%; 
+	background-attachment: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#arriba{
+	margin-left:50px;
+	margin-right:50px;
+	height:190px;
+	background-image:url(../imagenes/biblioteca.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
+	border: black 5px dashed;
+}
+#central{
+	margin-left:50px;
+	margin-right:50px;
+	height:800px;
+	color:black;
+	padding:0px;
+	top:0px;
+}
+a:link{
+	text-decoration:none;
+	font-size:12pt;
+}
+a:visited{
+	text-decoration:none;
+	color:black;
+	font-size:12pt;
+}
+a:hover{
+	text-decoration:none;
+	color:blue;
+}
+h1{
+	text-align:center;
+	font-family:Century,Verdana;
+	font-size:18pt;
+	color:#0000AA;
+	font-weight:bold;
+	padding-top:5px;
+	margin-top:0px;
+}
+p.normal{
+	
+	margin-left:25px;
+	margin-right:25px;
+	text-align:Justify;
+	font-family:Arial;
+	text-indent:25px;
+	color:black;
+	font-size:150%;
+	top:0px;
+}
+.imagen{
+	border-style:solid;
+	border-width:5px 5px 5px 5px;
+	border-color:black;
+	padding:0px;
+	width:10%;
+	height:30%;
+}			
+#header {
+	margin:auto;
+	width:500px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+ul, ol {
+	list-style:none;
+}
+.nav {
+	width:500px;
+	margin:0 auto;
+}
+
+.nav > li {
+	float:left;
+}
+
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+.nav li a:hover {
+	background-color:#434343;
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.nav li:hover > ul {
+	display:block;
+}
+
+.nav li ul li {
+	position:relative;
+}
+
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}

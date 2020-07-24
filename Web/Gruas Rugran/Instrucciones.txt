@@ -1,0 +1,11 @@
+Tener instalado xampp y un compilador como sublime text.
+
+1 - pegar la carpeta "Gruas Rugran" en C:\xampp\htdocs\
+    (C:\xampp\htdocs\Gruas Rugran)
+2 - cargar la base de datos que esta en la carpeta "archivos externos"
+    (C:\xampp\htdocs\Gruas Rugran\archivos externos)
+3 - En el navegador entrar con la direccion "localhost/Gruas Rugran/index.html" ó "localhost:3000/Gruas Rugran/index.html"
+    (http://localhost/Gruas%20Rugran/index.html)
+
+
+Es importante tener internet para que carguen los librerias de java.
