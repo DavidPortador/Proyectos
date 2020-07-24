@@ -5,18 +5,37 @@
 	git add .
 	//añadir documentos especificos (sin <>)
 	git add <documento>
-	//guaradar los cambios generados con una nota
+	//guardar los cambios
 	git commit
+	//guaradar los cambios generados con una nota
+	git commit –m “mensaje”
+	//buscar una palabra entre el repositorio sin (<>)
+	git grep <palabra>
 
 //Comandos importantes
+	//revisar los cambios y diferencias
+	git diff
 	//hacer una copia local
 	git pull
 	//subir los cambios a gitHub
 	git push
-
+	//revisar todos los commits
+	git log
+	//eliminar documentos (sin <>)
+	git rm <documento>
 	//ver las ramas existentes
 	git branch
+	//cambiar de rama (sin <>)
+	git checkout <rama>
 	//crear nuva rama e ir a ella (sin <>)
 	git checkout -b <rama>
 	//borrar una rama (sin <>)
 	git branch -d <rama>
+	//fusionar una rama con otra (sin <>)
+	git merge <rama>
+
+//Crear proyectos
+	//en el directorio
+	git init
+	//clonar uno (sin <>)
+	git clone <url>
