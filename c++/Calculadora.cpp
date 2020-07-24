@@ -8,6 +8,9 @@ class Calculos{
 public:
     void Sumas(int p_cant);
     void Restas(int p_cant);
+    void Multiplicacion(int p_cant);
+    void Division();
+    
 };
 void Calculos::Sumas(int p_cant){
     int v_vector[p_cant];
@@ -34,6 +37,19 @@ void Calculos::Restas(int p_cant){
     }
     cout << "La Resta es: " << v_resta << "\n";
 }
+void Calculos::Multiplicacion(int p_cant){
+    int v_vector[p_cant];
+    int v_multi;
+    for (int i = 0; i < p_cant; i++){
+        cout << "Cantidad " << i+1 << ": " ;
+        cin >> v_vector[i];
+    }
+    v_multi=v_vector[0];
+    for (int j = 1; j < p_cant; j++){
+        v_multi*=v_vector[j];
+    }
+    cout << "Multiplicacion es: " << v_multi << "\n";
+}
 
 int main(){
     cout << "Opciones:\n1)Suma\n2)Resta\n3)Multiplicacion\n4)Division\n";
@@ -55,10 +71,14 @@ void Menu(){
         cin>>v_aux;
         v_obj.Restas(v_aux);
         break;
+    case 3:
+        cout << "¿Cuantos valores multiplicara?\n";
+        cin>>v_aux;
+        v_obj.Multiplicacion(v_aux);
+        break;
     default:
         cout << "Elige una opcion valida\n";
         Menu();
         break;
     }
-    
 }

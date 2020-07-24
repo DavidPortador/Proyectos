@@ -64,10 +64,8 @@ void Imprimir(int p_num){
                             cout << p_num;
                         }
                     }
-
                 }
             }
         }
     }
-    
 }
