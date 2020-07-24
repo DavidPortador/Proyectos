@@ -1,0 +1,22 @@
+//Comandos basicos
+	//muestra los cambios en el(los) repositorio(s)
+	git status
+	//añadir todos los cambios al repositorio
+	git add .
+	//añadir documentos especificos (sin <>)
+	git add <documento>
+	//guaradar los cambios generados con una nota
+	git commit
+
+//Comandos importantes
+	//hacer una copia local
+	git pull
+	//subir los cambios a gitHub
+	git push
+
+	//ver las ramas existentes
+	git branch
+	//crear nuva rama e ir a ella (sin <>)
+	git checkout -b <rama>
+	//borrar una rama (sin <>)
+	git branch -d <rama>

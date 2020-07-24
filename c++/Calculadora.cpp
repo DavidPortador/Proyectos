@@ -50,6 +50,15 @@ void Calculos::Multiplicacion(int p_cant){
     }
     cout << "Multiplicacion es: " << v_multi << "\n";
 }
+void Calculos::Division(){
+    int v_div,v_num,v_den;
+    cout << "Ingrese el numerador\n";
+    cin >> v_num;
+    cout << "Ingrese en denominador\n";
+    cin >> v_den;
+    v_div=v_num/v_den;
+    cout << "Division es: " << v_div << "\n";
+}
 
 int main(){
     cout << "Opciones:\n1)Suma\n2)Resta\n3)Multiplicacion\n4)Division\n";
@@ -75,6 +84,9 @@ void Menu(){
         cout << "¿Cuantos valores multiplicara?\n";
         cin>>v_aux;
         v_obj.Multiplicacion(v_aux);
+        break;
+    case 4:
+        v_obj.Division();
         break;
     default:
         cout << "Elige una opcion valida\n";
