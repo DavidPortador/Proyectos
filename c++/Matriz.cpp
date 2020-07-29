@@ -1,5 +1,5 @@
 #include <iostream>	 //Libreria de entradas y salidas de datos
-#include<sstream>  
+#include<sstream>  //Libreria para trsnformar tipos de datos
 using namespace std; //Flujo de entrada y salida
 
 //Declaracion de Metodos
