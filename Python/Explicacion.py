@@ -4,7 +4,7 @@ Notas del lenguaje:
 ser string
 2 No hay ;
 3 Es MUY importante tener alineado el codigo
-4 No exite "switch", "do while"
+4 No exite "switch", "do while" (se simulan)
 """
 #Clase principal
 def Main():
@@ -71,7 +71,13 @@ def Ciclos():
     print("correcto")
 #Vectores
 def Vectores():
-    print("vec")
-
+    #Listas
+    lista = []
+    can = int(input("Longitud de la lista: "))
+    for i in range(can):
+        aux = input(str(i+1)+": ")
+        lista.append(aux)
+    print(lista)
+    #
 #Correr el programa desde la clase principal
 Main()
