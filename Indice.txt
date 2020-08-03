@@ -1,12 +1,14 @@
 El grado de complejidad aumenta conforme aprendo y aplico MI logica a estos problemas
-
+------------------------------------------------------------------------------------------------------------
 1) Hola Mundo
     Es un simple codifgo que se hace mas por costumbre que por aprender
 2) Explicaicon del lenguaje
     Da a conocer los tipos de datos, impresiones, metodos, ciclos, funciones, clases, etc
 3) Fibonacci
     Es el producto de la suma de los numeros más el producto de ellos ciclicamente
-4) Matriz diagonal
+4) Triangulo
+    Con una medida numerica se crea un triangulo equilatero a partir de dicha medida
+5) Matriz diagonal
     Pide un numero para generar una matriz con base en el numero y hacer la suma diagonal de los valores
-5) Calculadora
+6) Calculadora
     Con base en un menu hace operaciones basicas

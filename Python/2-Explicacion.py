@@ -73,11 +73,18 @@ def Ciclos():
 def Vectores():
     #Listas
     lista = []
+    lista.insert(0,"Lista")
     can = int(input("Longitud de la lista: "))
     for i in range(can):
         aux = input(str(i+1)+": ")
         lista.append(aux)
     print(lista)
-    #
+    #Tuplas
+    tup = ("Tupla",1,2,3,4,5)
+    print("Una tupla es un conjunto de datos que no se puede modificar\n"+str(tup))
+    #Diccionario
+    dicc = {"Nombre":"David","Apellido":"Portador"}
+    print(dicc)
+    
 #Correr el programa desde la clase principal
 Main()
