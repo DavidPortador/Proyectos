@@ -22,8 +22,11 @@ public class Matriz {
         }
     }
     void m_crearMatriz(){
-        int v_cont,v_cont2,v_aux,v_diagInicial=0,v_diagFinal=0;
-        v_aux=0;
+        int v_max,v_cont,v_cont2,v_cont3,v_aux=0,v_diagInicial=0,v_diagFinal=0;
+        v_max = (a_long*a_long);
+        String v_maxs = v_max+"";
+        v_max=v_maxs.length();
+        System.out.println("MAXIMO: "+v_max);
         for (v_cont = 0; v_cont < a_long; v_cont++) {
             for (v_cont2 = 0; v_cont2 < a_long; v_cont2++) {
                 v_aux++;
@@ -33,10 +36,18 @@ public class Matriz {
                 if(v_cont2==(a_long-v_cont)){
                     v_diagFinal+=v_aux;
                 }
-                System.out.print(v_aux+" ");
+                //Aqui se alinean
+                if(((v_aux+"").length())!=1){
+                System.out.print(v_aux);
+                }else{
+                    System.out.print(v_aux+" ");
+                }
+                for(v_cont3 = 0; v_cont3 < v_max; v_cont3++){
+                    System.out.print(" ");
+                }
+                
             }
             System.out.println();
-            v_aux--;
         }
         System.out.println("Diagonal Inicial: "+v_diagInicial);
         System.out.println("Diagonal Final:   "+(v_diagFinal+1));
