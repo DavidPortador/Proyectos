@@ -37,5 +37,5 @@ Estos programas son basicamente explicaciones de como funcionan los lenguajes pa
 7) Serie Xn
     ()Xn=n(n+1)/2 Con base en esa formula determinar la serie o un valor especifico
     
-    
+    ✓C++
     ✓Python
