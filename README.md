@@ -9,7 +9,7 @@ Estos programas son basicamente explicaciones de como funcionan los lenguajes pa
     ✓Java
     ✓C++
     ✓Python
-2) Explicaicon del lenguaje
+2) Explicacion del lenguaje
     ()Conocer tipos de datos, impresiones, metodos, ciclos, funciones, clases, etc (varian entre lenguajes)
 
     ✓C++
@@ -39,3 +39,5 @@ Estos programas son basicamente explicaciones de como funcionan los lenguajes pa
     
     ✓C++
     ✓Python
+8) Priramide recursiva
+    
