@@ -1,8 +1,9 @@
 # Proyectos
-Me gusta el mango (y)
-Estos programas son basicamente explicaciones de como funcionan los lenguajes (c++, python, java) partiendo desde lo mas basico y cada vez ir aumentando el grado de dificultad, todos los problemas se hacen con la intencion de que sean resultos de la misma manera pero adaptada a la sintaxis de cada lenguaje para entenderse y de cierto punto comparar las funciones adaptadas en cada lenguaje.
-El grado de complejidad aumenta conforme aprendo y aplico MI logica a estos problemas.
+
+Estos programas son basicamente explicaciones de como funcionan los lenguajes (c++, python, java) partiendo desde lo mas basico y cada vez ir aumentando el grado de dificultad, todos los problemas se hacen con la intencion de que sean resultos de la misma manera pero adaptada a la sintaxis de cada lenguaje para entenderse y de cierto punto comparar las funciones adaptadas en cada lenguaje. El grado de complejidad aumenta conforme aprendo y aplico MI logica a estos problemas.
+
 #Programas hechos en Java, Python, C++
+
 Índice 
 ------------------------------------------------------------------------------------------------------------
 1) Hola Mundo(desc)Es un simple código que se hace por costumbre, la primer impresión
