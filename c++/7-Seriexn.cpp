@@ -1,6 +1,6 @@
-#include<iostream>//Libreria de entradas y salidas de datos
-#include<sstream>  //Libreria para trsnformar tipos de datos
-using namespace std;//Flujo de entrada y salida
+#include <iostream> //Componente para operaciones de entrada/salida de datos
+#include <sstream>  //Componente para transformar tipos de datos
+using namespace std; //Componente para flujo de entrada y salida
 
 //Metodos y atributos
 void calculos(int p_valor);

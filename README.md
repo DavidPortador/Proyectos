@@ -14,4 +14,4 @@ Estos programas son básicamente explicaciones de cómo funcionan los lenguajes 
 6) Calculadora(desc)Con base en un menú hace operaciones básicas
 7) Serie Xn(desc)Xn=n(n+1)/2 Con base en esa fórmula determinar la serie o un valor especifico
 8) Pirámide recursiva(desc)Se forma una pirámide con distintas representaciones matemáticas
-
+9) Adivinar (desc)Adivinar un numero aleatorio

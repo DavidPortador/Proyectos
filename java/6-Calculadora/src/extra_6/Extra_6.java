@@ -2,7 +2,6 @@ package extra_6;
 import java.util.Scanner;
 
 public class Extra_6 {
-    
     //Son atributos porque se usan en varios metodos
     //**Las variables solo se usan en el mismo metodo
     Scanner a_teclado = new Scanner(System.in);
