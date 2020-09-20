@@ -192,7 +192,6 @@ class tablero():
             py-=20
 def arriba():
     pz.forward(20)
-
 def derecha():
     pos = pz.pos()
     x=pos[0]

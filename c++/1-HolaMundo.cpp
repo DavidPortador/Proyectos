@@ -1,4 +1,4 @@
-#include <iostream> //Componente para operaciones de entrada/salida de datos
+#include <iostream> //Componente para operaciones de entrada/salida
 using namespace std; //Componente para flujo de entrada y salida
 
 int main(){
