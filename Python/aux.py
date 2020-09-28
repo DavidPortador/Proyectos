@@ -1,15 +1,14 @@
-                                    ###########################
-                                    #Teris; By: David Portador#
-                                    ###########################
 import turtle as t
 import time
 import random
-# Coniguracion de la ventana principal
-ventana = t.Screen()
-ventana.title("Tetris by DP")
-class piezas():
-    # Genera un pieza aleatoria en las posiciones dadas
-    # Metodo constructor
+# Metodos
+class main():
+    def __init__(self):
+        ventana = t.Screen()
+        ventana.title("Turtle Keys")
+        pie = pieza(10,15)
+        ventana.mainloop()
+class pieza():
     def __init__(self,x,y):
         # Aquí se crean las piezas base (sin forma)
         pz = t.Turtle()
@@ -46,12 +45,6 @@ class piezas():
                                 if(opc==6):
                                     self.formato(pz,pz2,pz3,pz4,"yellow")
                                     self.felei(pz,pz2,pz3,pz4,x,y)
-        cont=0
-        # Hace bajar a pieza cada segundo que pasa
-        while (cont<23):
-            time.sleep(1)
-            self.bajar(pz,pz2,pz3,pz4)
-            cont+=1
     def formato(self,pz,pz2,pz3,pz4,color):
         # No dejar rastro
         pz.penup()
@@ -108,104 +101,6 @@ class piezas():
         pz2.goto(x,y+20)
         pz3.goto(x,y+40)
         pz4.goto(x-20,y)
-    def bajar(self,pz,pz2,pz3,pz4):
-        ps1=pz.pos()
-        x1=ps1[0]
-        y1=ps1[1]
-        ps2=pz2.pos()
-        x2=ps2[0]
-        y2=ps2[1]
-        ps3=pz3.pos()
-        x3=ps3[0]
-        y3=ps3[1]
-        ps4=pz4.pos()
-        x4=ps4[0]
-        y4=ps4[1]
-        pz.goto(x1,y1-20)
-        pz2.goto(x2,y2-20)
-        pz3.goto(x3,y3-20)
-        pz4.goto(x4,y4-20)
-class tablero():
-    def __init__(self):
-        # Aquí se crean las piezas base (sin forma)
-        self.techo()
-        self.ladoizq()
-        self.base()
-        self.ladoder()
-    def techo(self):
-        pzs = []
-        px=-120
-        py=275
-        for i in range(13):
-            pzs = t.Turtle()
-            pzs.penup()
-            pzs.speed(0)
-            pzs.shape('square')
-            pzs.fillcolor("gray")
-            pzs.goto(px,py)
-            px+=20
-    def ladoizq(self):
-        pzs = []
-        px=-120
-        py=255
-        for i in range(25):
-            pzs = t.Turtle()
-            pzs.penup()
-            pzs.speed(0)
-            pzs.shape('square')
-            pzs.fillcolor("gray")
-            pzs.goto(px,py)
-            py-=20
-    def base(self):
-        pzs = []
-        px=-120
-        py=-245
-        for i in range(13):
-            pzs = t.Turtle()
-            pzs.penup()
-            pzs.speed(0)
-            pzs.shape('square')
-            pzs.fillcolor("gray")
-            pzs.goto(px,py)
-            px+=20
-    def ladoder(self):
-        pzs = []
-        px=120
-        py=255
-        for i in range(25):
-            pzs = t.Turtle()
-            pzs.penup()
-            pzs.speed(0)
-            pzs.shape('square')
-            pzs.fillcolor("gray")
-            pzs.goto(px,py)
-            py-=20
-# Indicaciones del teclado
-def arriba():
-    pz.forward(20)
-def derecha():
-    pos = pz.pos()
-    x=pos[0]
-    y=pos[1]
-    pz.goto(x+20,y)
-def abajo():
-    pz.back(20)
-def main():
-    #Esta linea genera el tablero
-    tablero()
-    # Se genera una pieza en la posicion dada
-    cont=0
-    while (cont<6):
-        nuevapieza = piezas(0,235)
-        cont+=1
-    ventana.mainloop()
-# Keyboard
-#pz = t.Turtle()
-#pz.left(90)
-"""
-ventana.onkey(arriba, "Up")
-ventana.onkey(izquierda, "Left")
-ventana.onkey(derecha, "Right")
-ventana.onkey(abajo, "Down")
-ventana.listen()"""
+    def get_Piezas(self,pz):
+        return pz
 main()
