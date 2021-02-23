@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch prueba",
+            "request": "launch",
+            "mainClass": "prueba",
+            "projectName": "Proyectos_2da83d0c"
+        },
+        {
+            "type": "java",
+            "name": "Launch HolaMundo",
+            "request": "launch",
+            "mainClass": "holamundo.HolaMundo",
+            "projectName": "Proyectos_2da83d0c"
+        },
+        {
             "name": "g++ - Compilar y depurar el archivo activo",
             "type": "cppdbg",
             "request": "launch",

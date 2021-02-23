@@ -1,3 +1,9 @@
+//Crear proyectos
+	//en el directorio
+	git init
+	//clonar uno (sin <>)
+	git clone <url>
+
 //Comandos basicos
 	//muestra los cambios en el(los) repositorio(s)
 	git status
@@ -33,9 +39,3 @@
 	git branch -d <rama>
 	//fusionar una rama con otra (sin <>)
 	git merge <rama>
-
-//Crear proyectos
-	//en el directorio
-	git init
-	//clonar uno (sin <>)
-	git clone <url>
