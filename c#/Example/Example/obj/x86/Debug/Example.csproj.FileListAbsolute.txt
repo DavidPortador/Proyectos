@@ -1,0 +1,6 @@
+/home/dp/C#/Example/Example/bin/Debug/Example.exe
+/home/dp/C#/Example/Example/bin/Debug/Example.pdb
+/home/dp/C#/Example/Example/obj/x86/Debug/Example.csprojAssemblyReference.cache
+/home/dp/C#/Example/Example/obj/x86/Debug/Example.csproj.CoreCompileInputs.cache
+/home/dp/C#/Example/Example/obj/x86/Debug/Example.exe
+/home/dp/C#/Example/Example/obj/x86/Debug/Example.pdb

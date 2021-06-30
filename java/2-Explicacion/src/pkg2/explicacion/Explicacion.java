@@ -1,13 +1,11 @@
 package pkg2.explicacion;
 
 /*
-
     tipos de datos, caracteres (atributos, variables, parametros)
     metodos, funciones
     condiciones
     ciclos, arreglos, excepciones
     leer datos, numeros random, operaciones + JUEGO
-    
  */
 
 public class Explicacion {
