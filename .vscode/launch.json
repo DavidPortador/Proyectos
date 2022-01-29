@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Explicacion",
+            "request": "launch",
+            "mainClass": "Explicacion",
+            "projectName": "Proyectos_1dacda04"
+        },
+        {
+            "type": "java",
+            "name": "Launch HolaMundo",
+            "request": "launch",
+            "mainClass": "HolaMundo",
+            "projectName": "Proyectos_1dacda04"
+        },
+        {
+            "type": "java",
             "name": "Launch prueba",
             "request": "launch",
             "mainClass": "prueba",
